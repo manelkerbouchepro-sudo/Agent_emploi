@@ -1,0 +1,10 @@
+{
+  "titre": "Ingénieure logiciel junior (C#/.NET, IA appliquée)",
+  "experience_mois": 18,
+  "diplome": "Master EEA spécialité MTI, 2026, mention Bien",
+  "maitrise": ["C#", "ASP.NET Core", "Blazor", "SignalR", "API REST", "PostgreSQL", "Entity Framework Core", "OPC UA", "Azure DevOps CI/CD", "Git", "Jira / Agile", "Python", "TensorFlow (CNN)", "API Claude", "Claude Code", "MCP", "Power BI", "C (OpenMP/SIMD)", "Java/Kotlin (projets de Master)"],
+  "autoformation": ["Docker", "Terraform", "Azure (AZ-900)", "RAG", "PyTorch", "Kubernetes"],
+  "absent": ["Siemens PLC", "AUTOSAR", "iOS / Swift", "Rust", "5 ans d'expérience"],
+  "cibles": ["développeur .NET / full stack", "IA appliquée et agents", "logiciel industriel", "énergie, ferroviaire, automobile"],
+  "contraintes": {"contrat": "CDI", "pas_ESN": true, "niveau": "débutant ou jusqu'à 2 ans"}
+}

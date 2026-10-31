@@ -1,0 +1,6 @@
+.env
+output/
+__pycache__/
+*.pyc
+deja_vues.json
+.installe

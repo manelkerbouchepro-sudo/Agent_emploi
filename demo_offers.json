@@ -1,0 +1,7 @@
+[
+ {"id":"d1","titre":"Développeur C# .NET (H/F)","entreprise":"Éditeur Exemple","lieu":"54 - NANCY","contrat":"CDI","experience":"Débutant accepté","date":"2026-10-20T08:00:00Z","description":"Développement ASP.NET Core, API REST, PostgreSQL, méthodes agiles, Azure DevOps.","url":"https://example.com/offre/d1"},
+ {"id":"d2","titre":"Développeur .NET confirmé","entreprise":"Astek","lieu":"54 - NANCY","contrat":"CDI","experience":"3 ans","date":"2026-10-25T08:00:00Z","description":"Mission chez un client.","url":"https://example.com/offre/d2"},
+ {"id":"d3","titre":"Ingénieur logiciel embarqué","entreprise":"Industriel Exemple","lieu":"95 - CERGY","contrat":"CDI","experience":"2 ans d'expérience","date":"2026-10-10T08:00:00Z","description":"C, C++, temps réel, bus CAN, Git.","url":"https://example.com/offre/d3"},
+ {"id":"d4","titre":"Ingénieur IA agents","entreprise":"Startup Exemple","lieu":"75 - PARIS","contrat":"CDI","experience":"5 ans d'expérience minimum","date":"2026-10-28T08:00:00Z","description":"Python, LLM, agents.","url":"https://example.com/offre/d4"},
+ {"id":"d5","titre":"Développeur full stack","entreprise":"PME Exemple","lieu":"57 - METZ","contrat":"CDI","experience":"","date":"2025-01-10T08:00:00Z","description":"C#, Angular.","url":"https://example.com/offre/d5"}
+]

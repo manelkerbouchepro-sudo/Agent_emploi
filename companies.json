@@ -1,0 +1,6 @@
+[
+  {"nom": "Mistral AI", "type": "lever", "slug": "mistral"},
+  {"nom": "Safran", "type": "page", "url": "https://www.safran-group.com/fr/offres", "a_verifier": true},
+  {"nom": "VINCI", "type": "page", "url": "https://jobs.vinci.com/en/search-jobs", "a_verifier": true},
+  {"nom": "Valeo", "type": "page", "url": "https://matchmycv.valeo.com/fr/search", "a_verifier": true}
+]
