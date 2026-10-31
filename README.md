@@ -26,6 +26,22 @@ Une source dont la clé manque est simplement passée, avec un message. Une sour
 L'agent ne lit pas Indeed, LinkedIn ni Welcome to the Jungle directement (interdit par leurs conditions) :
 crée des alertes e-mail sur ces sites, l'agent lit les mails.
 
+## Ta liste d'entreprises (cibles.json)
+`cibles.json` contient les entreprises de ton fichier Excel retenues pour tes zones (Nancy / Metz,
+Strasbourg, Paris) et tes domaines (logiciel, IA, électronique, automatisme, mécatronique, robotique),
+sans les ESN, classées en trois priorités :
+- **A** : Grand Est, ou industrie / automobile / énergie, où ton expérience Emotors compte le plus
+- **B** : éditeurs de logiciels, startups tech et IA
+- **C** : défense (sites ZRR), laboratoires de recherche, intégrateurs en agences
+
+L'agent s'en sert de trois façons :
+1. Une offre d'une entreprise de ta liste porte un badge « ta liste · A/B/C » dans le rapport.
+2. Elle reste visible à partir de `score_minimum_cibles` (4 par défaut) au lieu de `score_minimum`.
+3. La source `web` fait des recherches ciblées sur les entreprises A puis B (`recherche_web_cibles`, 8 par défaut).
+
+Après avoir modifié le fichier Excel : `python importer_liste.py "Entreprises_Stage_Alternance_France.xlsx"`.
+Les règles de priorité sont dans `agent/targets.py`.
+
 ## Commandes utiles
 - `lancer.bat` ou `python main.py` : recherche du jour, nouvelles offres seulement
 - `python main.py --tout` : remontre aussi les offres déjà vues
@@ -38,12 +54,16 @@ crée des alertes e-mail sur ces sites, l'agent lit les mails.
 - `mots_requis` / `mots_exclus` : mots entiers cherchés dans l'intitulé (« ia » ne capte plus « commercial »)
 - `esn_blacklist` : sociétés écartées
 - `score_minimum` : note en dessous de laquelle une offre n'apparaît pas dans le rapport
+- `score_minimum_cibles` / `recherche_web_cibles` : voir « Ta liste d'entreprises »
 - `max_offres_notees` : nombre maximum d'offres notées par Claude par lancement (maîtrise du coût) ;
   les offres non notées restent pour le lancement suivant
 
 ## Ajouter une entreprise (companies.json)
-- Adresse des offres en `jobs.lever.co/NOM` : `{"nom":"X","type":"lever","slug":"NOM"}`
-- `boards.greenhouse.io/NOM` : type `greenhouse` ; `jobs.smartrecruiters.com/NOM` : type `smartrecruiters`
+Déjà configurées (plateforme vérifiée) : Mistral AI, Qonto, Pigment (Lever), Datadog, Dataiku, Doctolib,
+Algolia (Greenhouse), Hugging Face (Workable). Pour en ajouter une, ouvre une de ses offres et regarde l'adresse :
+- `jobs.lever.co/NOM` : `{"nom":"X","type":"lever","slug":"NOM"}`
+- `job-boards.greenhouse.io/NOM` : type `greenhouse` ; `jobs.smartrecruiters.com/NOM` : type `smartrecruiters` ;
+  `apply.workable.com/NOM` : type `workable`
 - Sinon : `{"nom":"X","type":"page","url":"https://...liste des offres..."}`. Les pages qui chargent leurs
   offres en JavaScript peuvent revenir vides ; les URL marquées `a_verifier` sont à contrôler.
 

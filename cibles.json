@@ -1,0 +1,1260 @@
+[
+ {
+  "nom": "Stellantis",
+  "tag": "",
+  "ville": "Nancy / Metz",
+  "site": "Trémery-Metz",
+  "activite": "Moteurs électriques",
+  "web": "stellantis.com",
+  "domaines": [
+   "Électronique",
+   "Mécatronique",
+   "Robotique"
+  ],
+  "priorite": "A",
+  "pourquoi": "Grand Est, proche de chez toi"
+ },
+ {
+  "nom": "Axilum Robotics",
+  "tag": "PME / Startup",
+  "ville": "Strasbourg",
+  "site": "Strasbourg",
+  "activite": "Robots médicaux",
+  "web": "axilumrobotics.com",
+  "domaines": [
+   "Mécatronique",
+   "Robotique"
+  ],
+  "priorite": "A",
+  "pourquoi": "Grand Est, proche de chez toi"
+ },
+ {
+  "nom": "Bürkert France",
+  "tag": "",
+  "ville": "Strasbourg",
+  "site": "Triembach-au-Val",
+  "activite": "Électrovannes, capteurs",
+  "web": "burkert.fr",
+  "domaines": [
+   "Électronique",
+   "Mécatronique"
+  ],
+  "priorite": "A",
+  "pourquoi": "Grand Est, proche de chez toi"
+ },
+ {
+  "nom": "Euro-Information (Crédit Mutuel Alliance Fédérale)",
+  "tag": "",
+  "ville": "Strasbourg",
+  "site": "Strasbourg",
+  "activite": "IT bancaire",
+  "web": "e-i.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "A",
+  "pourquoi": "Grand Est, proche de chez toi"
+ },
+ {
+  "nom": "Hager Group",
+  "tag": "",
+  "ville": "Strasbourg",
+  "site": "Obernai",
+  "activite": "Équipements électriques",
+  "web": "hagergroup.com",
+  "domaines": [
+   "Électronique",
+   "Mécatronique",
+   "Automatisme"
+  ],
+  "priorite": "A",
+  "pourquoi": "Grand Est, proche de chez toi"
+ },
+ {
+  "nom": "Kuhn",
+  "tag": "",
+  "ville": "Strasbourg",
+  "site": "Saverne",
+  "activite": "Machines agricoles",
+  "web": "kuhn.com",
+  "domaines": [
+   "Mécatronique",
+   "Robotique"
+  ],
+  "priorite": "A",
+  "pourquoi": "Grand Est, proche de chez toi"
+ },
+ {
+  "nom": "Punch Powertrain / Powerglide Strasbourg",
+  "tag": "",
+  "ville": "Strasbourg",
+  "site": "Strasbourg",
+  "activite": "Transmissions",
+  "web": "punchpowertrain.com",
+  "domaines": [
+   "Mécatronique"
+  ],
+  "priorite": "A",
+  "pourquoi": "Grand Est, proche de chez toi"
+ },
+ {
+  "nom": "SEW-Usocome",
+  "tag": "",
+  "ville": "Strasbourg",
+  "site": "Haguenau / Brumath",
+  "activite": "Motoréducteurs, automatismes",
+  "web": "usocome.com",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "A",
+  "pourquoi": "Grand Est, proche de chez toi"
+ },
+ {
+  "nom": "Siemens",
+  "tag": "",
+  "ville": "Strasbourg",
+  "site": "Haguenau",
+  "activite": "Instrumentation de process",
+  "web": "siemens.com",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "A",
+  "pourquoi": "Grand Est, proche de chez toi"
+ },
+ {
+  "nom": "Socomec",
+  "tag": "",
+  "ville": "Strasbourg",
+  "site": "Benfeld",
+  "activite": "Électronique de puissance",
+  "web": "socomec.fr",
+  "domaines": [
+   "Électronique",
+   "Automatisme"
+  ],
+  "priorite": "A",
+  "pourquoi": "Grand Est, proche de chez toi"
+ },
+ {
+  "nom": "Visible Patient",
+  "tag": "PME / Startup",
+  "ville": "Strasbourg",
+  "site": "Strasbourg",
+  "activite": "Modélisation 3D médicale",
+  "web": "visiblepatient.com",
+  "domaines": [
+   "Génie logiciel",
+   "Intelligence artificielle"
+  ],
+  "priorite": "A",
+  "pourquoi": "Grand Est, proche de chez toi"
+ },
+ {
+  "nom": "ÉS – Électricité de Strasbourg",
+  "tag": "",
+  "ville": "Strasbourg",
+  "site": "Strasbourg",
+  "activite": "Énergie, réseaux",
+  "web": "es.fr",
+  "domaines": [
+   "Électronique"
+  ],
+  "priorite": "A",
+  "pourquoi": "Grand Est, proche de chez toi"
+ },
+ {
+  "nom": "ABB France",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris / Cergy",
+  "activite": "Automatismes, robots",
+  "web": "abb.com",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Alstom",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Saint-Ouen / Villeurbanne",
+  "activite": "Signalisation ferroviaire",
+  "web": "alstom.com",
+  "domaines": [
+   "Électronique"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Balyo",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Ivry-sur-Seine",
+  "activite": "Chariots autonomes",
+  "web": "balyo.com",
+  "domaines": [
+   "Mécatronique",
+   "Robotique",
+   "Automatisme"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Dassault Systèmes",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Vélizy-Villacoublay",
+  "activite": "Logiciels 3D / PLM (CATIA, SolidWorks)",
+  "web": "3ds.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Diota",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Réalité augmentée industrielle",
+  "web": "diota.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Festo France",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Bry-sur-Marne",
+  "activite": "Pneumatique, automatisation",
+  "web": "festo.com",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Forvia (ex-Faurecia)",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Nanterre",
+  "activite": "Sièges & intérieurs mécatroniques",
+  "web": "forvia.com",
+  "domaines": [
+   "Mécatronique"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Inbolt",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Vision 3D et guidage de robots industriels",
+  "web": "inbolt.com",
+  "domaines": [
+   "Robotique"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Phoenix Contact France",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Marne-la-Vallée",
+  "activite": "Composants d'automatisme",
+  "web": "phoenixcontact.com",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Prophesee",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Capteurs de vision neuromorphiques",
+  "web": "prophesee.ai",
+  "domaines": [
+   "Électronique",
+   "Intelligence artificielle"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Renault Group",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Technocentre Guyancourt",
+  "activite": "Électronique & logiciel embarqué auto",
+  "web": "renaultgroup.com",
+  "domaines": [
+   "Électronique",
+   "Mécatronique",
+   "Robotique"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Rockwell Automation",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Automates",
+  "web": "rockwellautomation.com",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Schneider Electric",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Rueil-Malmaison",
+  "activite": "Électronique de puissance, automatisme",
+  "web": "se.com",
+  "domaines": [
+   "Électronique",
+   "Mécatronique",
+   "Automatisme"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Siemens",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Saint-Denis",
+  "activite": "Automatisation, électronique industrielle",
+  "web": "siemens.com",
+  "domaines": [
+   "Électronique",
+   "Automatisme"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Stellantis",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Vélizy",
+  "activite": "Systèmes embarqués automobiles",
+  "web": "stellantis.com",
+  "domaines": [
+   "Électronique",
+   "Mécatronique"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Valeo",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Créteil / Bobigny / Cergy",
+  "activite": "Électronique automobile, ADAS",
+  "web": "valeo.com",
+  "domaines": [
+   "Électronique",
+   "Mécatronique",
+   "Robotique"
+  ],
+  "priorite": "A",
+  "pourquoi": "Industrie / automobile / énergie : ton expérience Emotors compte"
+ },
+ {
+  "nom": "Actemium (VINCI Energies)",
+  "tag": "",
+  "ville": "Nancy / Metz",
+  "site": "Nancy / Metz",
+  "activite": "Intégrateur automatismes industriels (agences)",
+  "web": "actemium.fr",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "B",
+  "pourquoi": "Grand Est, mais recherche / agence d'intégration"
+ },
+ {
+  "nom": "Eiffage Énergie Systèmes",
+  "tag": "",
+  "ville": "Nancy / Metz",
+  "site": "Nancy / Metz",
+  "activite": "Intégrateur automatismes industriels (agences)",
+  "web": "eiffageenergiesystemes.com",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "B",
+  "pourquoi": "Grand Est, mais recherche / agence d'intégration"
+ },
+ {
+  "nom": "Equans",
+  "tag": "",
+  "ville": "Nancy / Metz",
+  "site": "Nancy / Metz",
+  "activite": "Intégrateur automatismes industriels (agences)",
+  "web": "equans.fr",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "B",
+  "pourquoi": "Grand Est, mais recherche / agence d'intégration"
+ },
+ {
+  "nom": "Inria (centre de recherche)",
+  "tag": "",
+  "ville": "Nancy / Metz",
+  "site": "Villers-lès-Nancy",
+  "activite": "Recherche robotique / IA",
+  "web": "inria.fr",
+  "domaines": [
+   "Robotique",
+   "Génie logiciel",
+   "Intelligence artificielle"
+  ],
+  "priorite": "B",
+  "pourquoi": "Grand Est, mais recherche / agence d'intégration"
+ },
+ {
+  "nom": "SPIE",
+  "tag": "",
+  "ville": "Nancy / Metz",
+  "site": "Nancy / Metz",
+  "activite": "Intégrateur automatismes industriels (agences)",
+  "web": "spie.com",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "B",
+  "pourquoi": "Grand Est, mais recherche / agence d'intégration"
+ },
+ {
+  "nom": "Actemium (VINCI Energies)",
+  "tag": "",
+  "ville": "Strasbourg",
+  "site": "Strasbourg",
+  "activite": "Intégrateur automatismes industriels (agences)",
+  "web": "actemium.fr",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "B",
+  "pourquoi": "Grand Est, mais recherche / agence d'intégration"
+ },
+ {
+  "nom": "Eiffage Énergie Systèmes",
+  "tag": "",
+  "ville": "Strasbourg",
+  "site": "Strasbourg",
+  "activite": "Intégrateur automatismes industriels (agences)",
+  "web": "eiffageenergiesystemes.com",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "B",
+  "pourquoi": "Grand Est, mais recherche / agence d'intégration"
+ },
+ {
+  "nom": "Equans",
+  "tag": "",
+  "ville": "Strasbourg",
+  "site": "Strasbourg",
+  "activite": "Intégrateur automatismes industriels (agences)",
+  "web": "equans.fr",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "B",
+  "pourquoi": "Grand Est, mais recherche / agence d'intégration"
+ },
+ {
+  "nom": "IRCAD / IHU Strasbourg",
+  "tag": "",
+  "ville": "Strasbourg",
+  "site": "Strasbourg",
+  "activite": "Chirurgie robotique (recherche & formation)",
+  "web": "ircad.fr",
+  "domaines": [
+   "Robotique"
+  ],
+  "priorite": "B",
+  "pourquoi": "Grand Est, mais recherche / agence d'intégration"
+ },
+ {
+  "nom": "SPIE",
+  "tag": "",
+  "ville": "Strasbourg",
+  "site": "Strasbourg",
+  "activite": "Intégrateur automatismes industriels (agences)",
+  "web": "spie.com",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "B",
+  "pourquoi": "Grand Est, mais recherche / agence d'intégration"
+ },
+ {
+  "nom": "Alan",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Assurance santé tech",
+  "web": "alan.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Algolia",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Moteur de recherche SaaS",
+  "web": "algolia.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Back Market",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "E-commerce",
+  "web": "backmarket.fr",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "BlaBlaCar",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Mobilité",
+  "web": "blablacar.fr",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Contentsquare",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Analytics SaaS",
+  "web": "contentsquare.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Criteo",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "AdTech, big data",
+  "web": "criteo.com",
+  "domaines": [
+   "Génie logiciel",
+   "Intelligence artificielle"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Datadog",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Monitoring cloud",
+  "web": "datadoghq.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Dataiku",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Data science / IA",
+  "web": "dataiku.com",
+  "domaines": [
+   "Génie logiciel",
+   "Intelligence artificielle"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Deezer",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Streaming musical",
+  "web": "deezer.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Doctolib",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Levallois-Perret",
+  "activite": "HealthTech",
+  "web": "doctolib.fr",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Enchanted Tools",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Robots humanoïdes",
+  "web": "enchanted.tools",
+  "domaines": [
+   "Mécatronique",
+   "Robotique"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Giskard",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Test & qualité des modèles IA",
+  "web": "giskard.ai",
+  "domaines": [
+   "Intelligence artificielle"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "H Company",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Agents IA",
+  "web": "hcompany.ai",
+  "domaines": [
+   "Intelligence artificielle"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Hugging Face",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "IA open source",
+  "web": "huggingface.co",
+  "domaines": [
+   "Génie logiciel",
+   "Intelligence artificielle"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Ledger",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Hardware sécurisé (crypto wallets)",
+  "web": "ledger.com",
+  "domaines": [
+   "Électronique"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "LightOn",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "IA générative entreprise",
+  "web": "lighton.ai",
+  "domaines": [
+   "Intelligence artificielle"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Malt",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Plateforme freelances",
+  "web": "malt.fr",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Mirakl",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "E-commerce SaaS",
+  "web": "mirakl.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Mistral AI",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "IA générative",
+  "web": "mistral.ai",
+  "domaines": [
+   "Génie logiciel",
+   "Intelligence artificielle"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Murex",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Logiciels finance",
+  "web": "murex.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "NXP Semiconductors",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris (bureaux)",
+  "activite": "Semi-conducteurs",
+  "web": "nxp.com",
+  "domaines": [
+   "Électronique"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Orange",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Châtillon (Orange Innovation)",
+  "activite": "Télécoms, IoT",
+  "web": "orange.com",
+  "domaines": [
+   "Électronique"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Owkin",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "IA santé",
+  "web": "owkin.com",
+  "domaines": [
+   "Intelligence artificielle"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "PayFit",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "SaaS paie / RH",
+  "web": "payfit.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Pennylane",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "FinTech comptable",
+  "web": "pennylane.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Photoroom",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "IA image",
+  "web": "photoroom.com",
+  "domaines": [
+   "Génie logiciel",
+   "Intelligence artificielle"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Pigment",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "SaaS planification",
+  "web": "pigment.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Qonto",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "FinTech",
+  "web": "qonto.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "SAP Labs France",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Levallois-Perret",
+  "activite": "Logiciels d'entreprise",
+  "web": "sap.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Sequans Communications",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Colombes",
+  "activite": "Puces 4G/5G IoT",
+  "web": "sequans.com",
+  "domaines": [
+   "Électronique"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Shift Technology",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "IA assurance",
+  "web": "shift-technology.com",
+  "domaines": [
+   "Génie logiciel",
+   "Intelligence artificielle"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Sorare",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Jeux / Web3",
+  "web": "sorare.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Swan",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Banking-as-a-Service",
+  "web": "swan.io",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Ubisoft",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Saint-Mandé / Montreuil",
+  "activite": "Jeux vidéo",
+  "web": "ubisoft.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Wandercraft",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Exosquelettes médicaux",
+  "web": "wandercraft.eu",
+  "domaines": [
+   "Mécatronique",
+   "Robotique"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Withings",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Issy-les-Moulineaux",
+  "activite": "Objets de santé connectés",
+  "web": "withings.com",
+  "domaines": [
+   "Électronique",
+   "Mécatronique"
+  ],
+  "priorite": "B",
+  "pourquoi": "Éditeur ou startup tech / IA"
+ },
+ {
+  "nom": "Actemium (VINCI Energies)",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris / IDF",
+  "activite": "Intégrateur automatismes industriels (agences)",
+  "web": "actemium.fr",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "C",
+  "pourquoi": "Recherche, intégrateur en agences ou matériel de pointe"
+ },
+ {
+  "nom": "Airbus Defence and Space",
+  "tag": "Militaire / Défense / Spatial",
+  "ville": "Paris / Île-de-France",
+  "site": "Élancourt",
+  "activite": "Systèmes embarqués défense, cybersécurité",
+  "web": "airbus.com",
+  "domaines": [
+   "Électronique"
+  ],
+  "priorite": "C",
+  "pourquoi": "Défense : sites souvent classés ZRR, procédure longue"
+ },
+ {
+  "nom": "Alice & Bob",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Logiciel & hardware quantique",
+  "web": "alice-bob.com",
+  "domaines": [
+   "Génie logiciel"
+  ],
+  "priorite": "C",
+  "pourquoi": "Recherche, intégrateur en agences ou matériel de pointe"
+ },
+ {
+  "nom": "CEA (Leti / List / Tech)",
+  "tag": "Militaire / Défense / Spatial",
+  "ville": "Paris / Île-de-France",
+  "site": "Saclay (CEA List)",
+  "activite": "Systèmes embarqués, IA embarquée (recherche)",
+  "web": "cea.fr",
+  "domaines": [
+   "Électronique",
+   "Robotique"
+  ],
+  "priorite": "C",
+  "pourquoi": "Défense : sites souvent classés ZRR, procédure longue"
+ },
+ {
+  "nom": "Dassault Aviation",
+  "tag": "Militaire / Défense / Spatial",
+  "ville": "Paris / Île-de-France",
+  "site": "Saint-Cloud",
+  "activite": "Commandes de vol, systèmes avion",
+  "web": "dassault-aviation.com",
+  "domaines": [
+   "Mécatronique"
+  ],
+  "priorite": "C",
+  "pourquoi": "Défense : sites souvent classés ZRR, procédure longue"
+ },
+ {
+  "nom": "Eiffage Énergie Systèmes",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris / IDF",
+  "activite": "Intégrateur automatismes industriels (agences)",
+  "web": "eiffageenergiesystemes.com",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "C",
+  "pourquoi": "Recherche, intégrateur en agences ou matériel de pointe"
+ },
+ {
+  "nom": "Equans",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris / IDF",
+  "activite": "Intégrateur automatismes industriels (agences)",
+  "web": "equans.fr",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "C",
+  "pourquoi": "Recherche, intégrateur en agences ou matériel de pointe"
+ },
+ {
+  "nom": "Google DeepMind Paris",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Recherche IA",
+  "web": "deepmind.google",
+  "domaines": [
+   "Intelligence artificielle"
+  ],
+  "priorite": "C",
+  "pourquoi": "Recherche, intégrateur en agences ou matériel de pointe"
+ },
+ {
+  "nom": "Inria (centre de recherche)",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris / Saclay",
+  "activite": "Recherche robotique & IA",
+  "web": "inria.fr",
+  "domaines": [
+   "Robotique"
+  ],
+  "priorite": "C",
+  "pourquoi": "Recherche, intégrateur en agences ou matériel de pointe"
+ },
+ {
+  "nom": "KNDS France (ex-Nexter)",
+  "tag": "Militaire / Défense / Spatial",
+  "ville": "Paris / Île-de-France",
+  "site": "Versailles-Satory",
+  "activite": "Robotique terrestre militaire",
+  "web": "knds.fr",
+  "domaines": [
+   "Robotique"
+  ],
+  "priorite": "C",
+  "pourquoi": "Défense : sites souvent classés ZRR, procédure longue"
+ },
+ {
+  "nom": "Kyutai (labo IA)",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Laboratoire de recherche IA",
+  "web": "kyutai.org",
+  "domaines": [
+   "Intelligence artificielle"
+  ],
+  "priorite": "C",
+  "pourquoi": "Recherche, intégrateur en agences ou matériel de pointe"
+ },
+ {
+  "nom": "MBDA",
+  "tag": "Militaire / Défense / Spatial",
+  "ville": "Paris / Île-de-France",
+  "site": "Le Plessis-Robinson",
+  "activite": "Électronique de missiles",
+  "web": "mbda-systems.com",
+  "domaines": [
+   "Électronique",
+   "Robotique"
+  ],
+  "priorite": "C",
+  "pourquoi": "Défense : sites souvent classés ZRR, procédure longue"
+ },
+ {
+  "nom": "Meta – FAIR Paris",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "Recherche IA",
+  "web": "ai.meta.com",
+  "domaines": [
+   "Intelligence artificielle"
+  ],
+  "priorite": "C",
+  "pourquoi": "Recherche, intégrateur en agences ou matériel de pointe"
+ },
+ {
+  "nom": "Pasqal",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Massy / Palaiseau",
+  "activite": "Ordinateurs quantiques",
+  "web": "pasqal.com",
+  "domaines": [
+   "Électronique"
+  ],
+  "priorite": "C",
+  "pourquoi": "Recherche, intégrateur en agences ou matériel de pointe"
+ },
+ {
+  "nom": "Quandela",
+  "tag": "PME / Startup",
+  "ville": "Paris / Île-de-France",
+  "site": "Massy",
+  "activite": "Photonique quantique",
+  "web": "quandela.com",
+  "domaines": [
+   "Électronique"
+  ],
+  "priorite": "C",
+  "pourquoi": "Recherche, intégrateur en agences ou matériel de pointe"
+ },
+ {
+  "nom": "Safran",
+  "tag": "Militaire / Défense / Spatial",
+  "ville": "Paris / Île-de-France",
+  "site": "Massy / Villaroche",
+  "activite": "Systèmes d'actionnement aéronautiques",
+  "web": "safran-group.com",
+  "domaines": [
+   "Mécatronique"
+  ],
+  "priorite": "C",
+  "pourquoi": "Défense : sites souvent classés ZRR, procédure longue"
+ },
+ {
+  "nom": "Safran Electronics & Defense",
+  "tag": "Militaire / Défense / Spatial",
+  "ville": "Paris / Île-de-France",
+  "site": "Massy / Éragny",
+  "activite": "Optronique, navigation, avionique",
+  "web": "safran-group.com",
+  "domaines": [
+   "Électronique",
+   "Robotique"
+  ],
+  "priorite": "C",
+  "pourquoi": "Défense : sites souvent classés ZRR, procédure longue"
+ },
+ {
+  "nom": "Safran.AI (ex-Preligens)",
+  "tag": "Militaire / Défense / Spatial",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris",
+  "activite": "IA défense / imagerie",
+  "web": "safran-group.com",
+  "domaines": [
+   "Intelligence artificielle"
+  ],
+  "priorite": "C",
+  "pourquoi": "Défense : sites souvent classés ZRR, procédure longue"
+ },
+ {
+  "nom": "SPIE",
+  "tag": "",
+  "ville": "Paris / Île-de-France",
+  "site": "Paris / IDF",
+  "activite": "Intégrateur automatismes industriels (agences)",
+  "web": "spie.com",
+  "domaines": [
+   "Automatisme"
+  ],
+  "priorite": "C",
+  "pourquoi": "Recherche, intégrateur en agences ou matériel de pointe"
+ },
+ {
+  "nom": "Thales",
+  "tag": "Militaire / Défense / Spatial",
+  "ville": "Paris / Île-de-France",
+  "site": "Gennevilliers / Élancourt / Palaiseau",
+  "activite": "Électronique défense, radars, avionique",
+  "web": "thalesgroup.com",
+  "domaines": [
+   "Électronique",
+   "Mécatronique",
+   "Robotique"
+  ],
+  "priorite": "C",
+  "pourquoi": "Défense : sites souvent classés ZRR, procédure longue"
+ }
+]

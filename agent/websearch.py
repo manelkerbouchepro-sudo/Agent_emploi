@@ -32,8 +32,12 @@ def search_web(query, max_uses=4):
 
 
 def fetch_all(cfg):
+    from .targets import web_queries
     offers = []
-    for q in cfg.get("requetes_web", []):
+    queries = list(cfg.get("requetes_web", []))
+    # recherches ciblées sur les entreprises A puis B de ta liste (cibles.json)
+    queries += web_queries(cfg.get("cibles", []), max_queries=cfg.get("recherche_web_cibles", 8))
+    for q in queries:
         try:
             res = search_web(q)
             print(f"  « {q} » : {len(res)} offres")

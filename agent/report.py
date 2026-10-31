@@ -11,7 +11,8 @@ def _md(results, rejected, stats):
     for o in results:
         s = o["eval"]
         lines += [
-            f"## {s['score']}/10 · {o['titre']} — {o['entreprise'] or 'entreprise non indiquée'}",
+            f"## {s['score']}/10 · {o['titre']} — {o['entreprise'] or 'entreprise non indiquée'}"
+            + (f" · liste {o['cible']}" if o.get("cible") else ""),
             f"- Lieu : {o['lieu'] or '—'} · Contrat : {o['contrat'] or '—'} · Expérience : {o['experience'] or 'non indiquée'}",
             f"- Publiée : {o['date'][:10] or '—'} · Source : {o.get('source') or '—'} · Lien : {VIVANT[o.get('alive')]}",
             f"- Verdict : **{s['verdict']}** — {s['raison']}",
@@ -37,6 +38,8 @@ h1{font-size:22px;margin:0 0 4px;color:var(--navy)}.stats{color:var(--muted);mar
 .top{display:flex;gap:12px;align-items:flex-start}
 .score{flex:none;min-width:48px;text-align:center;font-weight:700;font-size:18px;border-radius:8px;padding:6px 0;
 border:2px solid currentColor}.s-good{color:var(--good)}.s-mid{color:var(--mid)}.s-low{color:var(--low)}
+.badge{display:inline-block;font-size:12px;font-weight:600;padding:1px 8px;border-radius:99px;margin-left:6px;
+vertical-align:2px;background:var(--navy);color:var(--card)}
 .title{font-weight:650;font-size:16px}.title a{color:inherit}.meta{color:var(--muted);font-size:13px}
 .why{margin:8px 0 4px}.tags{font-size:13px}.tags b{font-weight:600}
 details{margin-top:24px;color:var(--muted)}summary{cursor:pointer}
@@ -53,6 +56,8 @@ def _html(results, rejected, stats):
         title = e(o["titre"])
         if o["url"]:
             title = f'<a href="{e(o["url"])}" target="_blank" rel="noopener">{title}</a>'
+        if o.get("cible"):
+            title += f' <span class="badge">ta liste · {e(o["cible"])}</span>'
         meta = " · ".join(x for x in [
             e(o["entreprise"] or "entreprise non indiquée"), e(o["lieu"]), e(o["contrat"]),
             e(o["experience"] or ""), ("publiée " + e(o["date"][:10])) if o["date"] else "",

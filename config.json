@@ -168,5 +168,7 @@
     "94 -",
     "95 -"
   ],
-  "max_offres_notees": 40
+  "max_offres_notees": 40,
+  "score_minimum_cibles": 4,
+  "recherche_web_cibles": 8
 }

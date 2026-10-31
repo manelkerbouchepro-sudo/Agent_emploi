@@ -53,4 +53,46 @@ d = tempfile.mkdtemp()
 path = report.write_report([o2], [(o1, "test")], "stats", outdir=d)
 h = open(path, encoding="utf-8").read()
 assert 'href="https://x/2"' in h and "C# &lt;et&gt; .NET" in h and os.path.exists(path[:-5] + ".md")
+
+# 7. liste d'entreprises cibles
+from agent import targets
+rows = [
+    ("Génie logiciel", "Datadog", None, "Paris / Île-de-France", "Paris", "Monitoring cloud", "datadoghq.com"),
+    ("Mécatronique", "Forvia (ex-Faurecia)", None, "Paris / Île-de-France", "Nanterre", "Sièges & intérieurs mécatroniques", "forvia.com"),
+    ("Génie logiciel", "Algolia", "PME / Startup", "Paris / Île-de-France", "Paris", "Moteur de recherche SaaS", "algolia.com"),
+    ("Électronique & systèmes embarqués", "Stellantis", None, "Nancy / Metz", "Trémery", "Moteurs électriques", "stellantis.com"),
+    ("Robotique", "Stellantis", None, "Nancy / Metz", "Trémery", "Moteurs électriques", "stellantis.com"),
+    ("Génie logiciel", "Capgemini", None, "Nancy / Metz", "Nancy", "ESN", "capgemini.com"),
+    ("Robotique", "Thales", "Militaire / Défense / Spatial", "Paris / Île-de-France", "Paris", "Radars", "thalesgroup.com"),
+    ("Génie logiciel", "Inria (centre de recherche)", None, "Nancy / Metz", "Villers", "Recherche IA", "inria.fr"),
+    ("Biologie / Biotech / Santé", "Sanofi", None, "Paris / Île-de-France", "Paris", "Pharma", "sanofi.com"),
+    ("Génie logiciel", "Doctolib", "PME / Startup", "Lyon", "Lyon", "HealthTech", "doctolib.fr"),
+]
+c = targets.from_rows(rows, cfg)
+p = {x["nom"]: x["priorite"] for x in c}
+assert p == {"Stellantis": "A", "Forvia (ex-Faurecia)": "A", "Datadog": "B", "Algolia": "B",
+             "Thales": "C", "Inria (centre de recherche)": "B"}, p
+assert [x["nom"] for x in c][0] == "Stellantis"          # Grand Est en tête
+assert next(x for x in c if x["nom"] == "Stellantis")["domaines"] == ["Électronique", "Robotique"]
+idx = targets.index(c)
+assert targets.match("Valeo", idx) is None
+assert targets.match("Forvia", idx) == "A" and targets.match("FORVIA Group", idx) == "A"
+assert targets.match("Stellantis Automobiles SAS", idx) == "A"
+assert targets.match("Capgemini", idx) is None and targets.match("", idx) is None
+q = targets.web_queries(c, max_queries=2)
+assert len(q) == 2 and '"Stellantis"' in q[0] and "Nancy" in q[0] and "(" not in q[1], q
+
+# 8. lecture Workable (réponse simulée)
+import unittest.mock as um
+fake = um.Mock(); fake.json.return_value = {"jobs": [{"title": "ML Engineer", "shortcode": "AB12", "city": "Paris",
+    "country": "France", "employment_type": "Full-time", "published_on": "2026-10-20", "url": "https://apply.workable.com/j/AB12"}]}
+with um.patch.object(careers, "_get", return_value=fake):
+    w = careers.workable({"nom": "Hugging Face", "slug": "huggingface"})
+assert w[0]["lieu"] == "Paris, France" and w[0]["url"].endswith("AB12") and w[0]["entreprise"] == "Hugging Face"
+assert filters.keep({**w[0], "experience": "", "description": ""}, cfg)[0]
+
+# 9. badge « ta liste » dans le rapport
+o2["cible"] = "A"
+h = open(report.write_report([o2], [], "s", outdir=tempfile.mkdtemp()), encoding="utf-8").read()
+assert "ta liste · A" in h
 print("OK : tous les tests passent")

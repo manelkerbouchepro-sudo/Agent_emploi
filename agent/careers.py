@@ -1,5 +1,5 @@
 """Lit directement les pages carrières des entreprises listées dans companies.json.
-Types : lever, greenhouse, smartrecruiters (API publiques, sans clé) et page (HTML générique)."""
+Types : lever, greenhouse, smartrecruiters, workable (API publiques, sans clé) et page (HTML générique)."""
 import html as htmllib
 import re
 import time
@@ -58,6 +58,21 @@ def smartrecruiters(c):
     return out
 
 
+def workable(c):
+    out = []
+    data = _get(f"https://apply.workable.com/api/v1/widget/accounts/{c['slug']}").json()
+    for j in data.get("jobs", []):
+        lieu = ", ".join(x for x in [j.get("city", ""), j.get("country", "")] if x)
+        if j.get("telecommuting"):
+            lieu = (lieu + " · remote").strip(" ·")
+        out.append(make_offer(
+            id=f"wk-{c['slug']}-{j.get('shortcode', j.get('url', ''))}", titre=j.get("title", ""), entreprise=c["nom"],
+            lieu=lieu, contrat=j.get("employment_type", ""), date=j.get("published_on", "") or j.get("created_at", ""),
+            url=j.get("url") or j.get("application_url") or f"https://apply.workable.com/{c['slug']}/",
+            source="carrière"))
+    return out
+
+
 def _robots_ok(url):
     try:
         base = f"{urlparse(url).scheme}://{urlparse(url).netloc}"
@@ -102,7 +117,7 @@ def fetch_all(cfg, path="companies.json"):
     for c in json.load(open(path, encoding="utf-8")):
         try:
             kind = c["type"]
-            res = page(c, cfg) if kind == "page" else {"lever": lever, "greenhouse": greenhouse, "smartrecruiters": smartrecruiters}[kind](c)
+            res = page(c, cfg) if kind == "page" else {"lever": lever, "greenhouse": greenhouse, "smartrecruiters": smartrecruiters, "workable": workable}[kind](c)
             print(f"  {c['nom']} : {len(res)} offres")
             offers += res
         except Exception as e:

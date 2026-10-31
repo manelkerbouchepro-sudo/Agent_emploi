@@ -12,7 +12,7 @@ import webbrowser
 
 from dotenv import load_dotenv
 
-from agent import alerts, careers, filters, report, scorer, seen, sources, verifier, websearch
+from agent import alerts, careers, filters, report, scorer, seen, sources, targets, verifier, websearch
 
 # Clés nécessaires par source : une source sans ses clés est passée, sans faire planter l'agent.
 NEEDS = {
@@ -77,6 +77,10 @@ def main():
 
     cfg = json.load(open("config.json", encoding="utf-8"))
     profil = json.load(open("profil.json", encoding="utf-8"))
+    cfg["cibles"] = targets.load()
+    idx = targets.index(cfg["cibles"])
+    if cfg["cibles"]:
+        print(f"Liste d'entreprises cibles : {len(cfg['cibles'])} (cibles.json)")
 
     use_llm = not args.no_llm and bool(os.environ.get("ANTHROPIC_API_KEY"))
     if not args.no_llm and not use_llm:
@@ -117,17 +121,22 @@ def main():
         except Exception as e:  # l'agent ne doit jamais s'arrêter sur une offre
             print(f"  ! notation impossible pour {o['titre']} : {e}")
             o["eval"] = scorer.score_keywords(o, profil)
-        print(f"  [{i}/{len(kept)}] {o['eval']['score']}/10  {o['titre']} — {o['entreprise']}")
-        if o["eval"]["score"] >= cfg["score_minimum"]:
+        o["cible"] = targets.match(o["entreprise"], idx)
+        tag = f"  [liste {o['cible']}]" if o["cible"] else ""
+        print(f"  [{i}/{len(kept)}] {o['eval']['score']}/10  {o['titre']} — {o['entreprise']}{tag}")
+        minimum = cfg.get("score_minimum_cibles", cfg["score_minimum"]) if o["cible"] else cfg["score_minimum"]
+        if o["eval"]["score"] >= minimum:
             results.append(o)
         else:
             rejected.append((o, f"score {o['eval']['score']}/10"))
 
-    results.sort(key=lambda x: x["eval"]["score"], reverse=True)
+    # tri : note d'abord, puis entreprises de ta liste (A avant B avant C) à note égale
+    results.sort(key=lambda x: (-x["eval"]["score"], x.get("cible") or "Z"))
     def pl(n, sing, plur):
         return f"{n} {sing if n <= 1 else plur}"
     stats = (f"{pl(len(results), 'offre retenue', 'offres retenues')} · "
              f"{pl(len(kept), 'examinée', 'examinées')} · "
+             f"dont {sum(1 for o in results if o.get('cible'))} de ta liste · "
              f"notation {'Claude' if use_llm else 'par mots-clés'}")
     path = report.write_report(results, rejected, stats)
     if not args.demo:
